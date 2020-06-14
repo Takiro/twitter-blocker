@@ -76,7 +76,8 @@ with open(filename, 'w') as f:
         else:
             f.write(f'{blocked.id};"{blocked.screen_name}";"{blocked.name}"\n')
 
-new_blocks = api.GetBlocksIDs()
 if not_blocked > 0:
     print(f'{not_blocked} accounts were not blocked due to errors')
-    print(f'{len(new_blocks) - len(blocks)} new accounts were blocked.')
+    
+new_blocks = api.GetBlocksIDs()
+print(f'{len(new_blocks) - len(blocks)} new accounts were blocked.')
