@@ -30,3 +30,6 @@ There is a limit for how many requests per hour can be send to Twitter. When the
 ## Beware of overblocking
 
 When you use this program it will block every twitter account without any further checks. The Program is not "smart". There is a good chance you will **overblock**. For example: When you block `@realDonaldTrump` you will probably block several newspapers and journalists too, since they are probably following for research reasons and not necessarily because they are fans. **Only use this program, when overblocking is not an issue for you.**
+
+## Does not keep your block-list up to date
+The program blocks only the useres that are follwoing the target account at the moment it is running. Perhaps you want to run it again now and then, to block new followers of the target accouts.
