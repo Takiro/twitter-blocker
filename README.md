@@ -7,7 +7,7 @@ Simple Python program that blocks a Twitter account and all of its followers.
 
 This once was a small script I made quickly, mostly to block racist accounts and all their followers since these type of accounts often send their whole crowd after you. Now I use it mostly to block crypto/nft promoters. 
 
-Despite there being other applications now that do the same, I continued to improve this whenever I found the time in the last years. This application can not be considered finished and probably never will be. It's a personal pet project, but I put it on GitHub because it may be of use for someone else, too.
+Despite there being other applications now that do the same, I continued to improve this whenever I found the time in the last years. This application can not be considered finished and probably never will be. It's a pet project, but I put it on GitHub because it may be of use for someone else, too.
 
 The advantage this application has over others is that you don't have to create any other accounts or link your twitter to a third party. All data remains on your system.
 
@@ -23,7 +23,7 @@ Python usually comes with the package manager PIP. Open a command line and use `
 
 ## Configuration
 
-Start the Program by running `twitter_blocker_gui`. Her you can connect your account bey opening the Settings menu and click on Account entry. Enter your credential, [here is a Guide on how to get them.](https://python-twitter.readthedocs.io/en/latest/getting_started.html).
+Start the application by running `twitter_blocker_gui`. Here you can connect your account by opening the Settings menu and click on Account entry. Enter your credential, [here is a Guide on how to get them.](https://python-twitter.readthedocs.io/en/latest/getting_started.html).
 
 Save the changes by clicking OK. Now the main window should show some information about your connected account, so you can make sure you are connected to the right one.
 
